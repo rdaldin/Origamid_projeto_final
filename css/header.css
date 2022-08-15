@@ -1,43 +1,48 @@
-.header-bg{
+.header-bg {
   background: #000000;
 }
 
-.header{
+.header {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
 }
 
-.header-menu{
+.header a {
+  align-self: center;
+}
+
+.header-menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-self: center;
 }
 
-.header-menu a{
+.header-menu a {
   text-decoration: none;
   color: #ffffff;
   font-size: 18px;
   padding: 20px 0px;
-  font-family: 'poppins';
+  font-family: "poppins";
   font-weight: 500;
   position: relative;
+  align-self: center;
 }
 
-.header-menu a:after{
+.header-menu a:after {
   content: "";
   display: block;
   height: 2px;
   width: 0px;
-  background:#ffffff;
+  background: #ffffff;
   margin-top: 4px;
   position: absolute;
   transition: 0.3s;
 }
 
-.header-menu a:hover:after{
+.header-menu a:hover:after {
   width: 100%;
 }
